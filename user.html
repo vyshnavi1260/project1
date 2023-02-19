@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+ <head>
+  <title>Login</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+   <link rel="stylesheet" href="./user.css">
+   <link rel="icon" href="./login.webp"></link>
+   <script src="./user.js" defer></script>
+ </head>
+ <body id="body">
+	<center>
+		<div id="d2">
+			<div id="d1">
+				<form id="f">
+					<h1>LOGIN</h1><br>
+					<span>Please Enter Your Login Id and Password</span>
+					<br><br>
+					<input id="user" placeholder="Username">
+					<h3 id="u"></h3><br>
+					<div id="passdiv">
+						<input type="password" id="pass" placeholder="Password">
+						<img id="img" src="./hide.jpg" onmousedown="vis()" onmouseup="hide()">
+					</div>
+					<h3 id="p"></h3>
+					<strong>Forgot Password?</strong>
+					<br><br>
+					<input type="button" value="Login" onclick="match()" id="button">
+				</form>
+				<br>
+				<div id="icons">
+					<a href="https://www.facebook.com" id="ic"><i class="fa-brands fa-facebook"></i></a>
+					<a href="https://www.twitter.com" id="ico"><i class="fa-brands fa-twitter"></i></a>
+					<a href="https://www.google.com" id="icon"><i class="fa-brands fa-google"></i></a>
+				</div>
+			</div>
+		</div>
+	</center>
+ </body>
+</html>

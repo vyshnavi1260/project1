@@ -1,0 +1,80 @@
+*{
+padding:0px;
+margin:0px;
+}
+input{
+	font-size:24px;
+	border-radius:20px;
+	text-align:center;
+	width:350px;
+	height:40px;
+	font-weight:bold;
+}
+#button{
+	width:150px;
+	height:60px;
+	border:2px solid green;
+}
+#d1{
+	width:45%;
+	height:500px;
+	background-color:#33ffcc;
+	color:black;
+	border-radius:30px;
+	font-size:22px;
+	border:2px solid grey;
+	position:absolute;
+	top:30px;
+	left:25%;
+	box-shadow:10px 10px 5px black;
+}
+#icons{
+	width:250px;
+	height:40px;
+	font-size:30px;
+	color:white;
+	text-shadow:0px 0px 10px black;
+}
+i:hover{
+	color:#ff99cc;
+}
+i{
+	color:white;
+	font-size:30px;
+	padding-left:20px;
+}
+
+#passdiv{
+	width:350px;
+	height:40px;
+	border:2px solid grey;
+	background-color:white;
+	border-radius:20px;
+}
+#pass{
+	height:38px;
+	width:80%;
+	border:none;
+	outline:0px;
+	font-size:24px;
+}
+#img{
+	width:30px;
+	height:30px;
+	float:right;
+	padding:5px;
+}
+#d2{
+	width:80%;
+	height:570px;
+	background-image:linear-gradient(45deg, #ff0099, blue);
+	border:3px solid silver;
+	border-radius:30px;
+	position:absolute;
+	top:25px;
+	left:10%;
+}
+#body{
+	background-image:radial-gradient(aqua, black, #33ff33);
+	height:600px;
+}
